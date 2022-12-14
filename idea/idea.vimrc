@@ -213,3 +213,12 @@ noremap ]] <ESC>:action MethodDown<CR>
 " multiple cursors
 map <A-M>  <A-N>
 set clipboard+=ideaput
+
+map <Left> <Nop>
+map <Right> <Nop>
+map <Up> <Nop>
+map <Down> <Nop>
+imap <Left> <Nop>
+imap <Right> <Nop>
+imap <Up> <Nop>
+imap <Down> <Nop>
