@@ -11,7 +11,7 @@ set multiple-cursors
 " 显示行号
 set nu
 " 显示相对行号
- set rnu
+set rnu
 " 高亮搜索
 set hlsearch
 " 自动定位到输入中的字符串，不需要回车搜索
@@ -19,8 +19,8 @@ set incsearch
 " 显示当前的模式
 set showmode
 " 共享系统粘贴板
-"set clipboard=unnamed
-"set clipboard+=ideaput
+set clipboard=unnamed
+set clipboard+=ideaput
 " 搜索时智能匹配大小写
 set ignorecase smartcase
 
@@ -213,12 +213,3 @@ noremap ]] <ESC>:action MethodDown<CR>
 " multiple cursors
 map <A-M>  <A-N>
 set clipboard+=ideaput
-
-map <Left> <Nop>
-map <Right> <Nop>
-map <Up> <Nop>
-map <Down> <Nop>
-imap <Left> <Nop>
-imap <Right> <Nop>
-imap <Up> <Nop>
-imap <Down> <Nop>
